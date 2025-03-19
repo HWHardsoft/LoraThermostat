@@ -24,3 +24,11 @@ As the AZ-Touch kit is not designed for 230V supply voltage, a small additional 
 
 ![additional pcb](https://cdn.hackaday.io/images/3035021711734909985.jpg)
 
+The circuit board of the AZ-Touch has been slightly modified so that the ACDC module fits into the housing:
+
+![test run without enclosure]([https://cdn.hackaday.io/images/3035021711734909985.jpg](https://cdn.hackaday.io/images/5410221711737920500.jpg))
+
+## Gateway:
+The gateway was mounted on a perforated grid plate. Essentially, the gateway consists of an ESP32 DEV KIT C module as CPU and an Adafruit RFM96W LoRa Radio Transceiver 433 MHz Breakout. The connection to the Internet is established via the WiFi of the ESP32 module.
+
+![Gateway]([https://cdn.hackaday.io/images/5423011711733784854.jpg](https://cdn.hackaday.io/images/180671711738295464.jpg))
